@@ -60,15 +60,15 @@ function Contact() {
             {state &&(
               <div className='animate-slide-down'>
                 <form onSubmit={handleSubmit}>
-                  <div className=' '>
+                  <div className='flex items-center justify-center'>
                     <label htmlFor='name' hidden>Name</label>
-                    <input type='text' name='name' id="name" placeholder='name' onChange={(e) => setName(e.target.value)} required className='m-7 rounded-xl p-2 bg-neutral-300 w-[400px] text-black'></input>
+                    <input type='text' name='name' id="name" placeholder='name' onChange={(e) => setName(e.target.value)} required className='m-7 rounded-xl p-2 bg-neutral-300 w-[400px] text-blacks'></input>
                   </div>
-                  <div className=''>
+                  <div className='flex items-center justify-center'>
                     <label htmlFor='Email' hidden>Email</label>
                     <input type='email' name='Email' id="Email" placeholder='Email' onChange={(e) => setEmail(e.target.value)} required className='mx-7 rounded-xl p-2 bg-neutral-300 w-[400px] text-black'></input>
                   </div>
-                  <div className=''>
+                  <div className='flex items-center justify-center'>
                     <label htmlFor='message' hidden>message</label>
                     <textarea type='text' name='message' id="message" placeholder='message' onChange={(e) => setMessage(e.target.value)}required className='m-7 rounded-xl p-2 bg-neutral-300 w-[400px] h-[150px] text-black'></textarea>
                   </div>
